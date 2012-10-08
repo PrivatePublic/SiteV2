@@ -1,0 +1,104 @@
+body {	
+	margin: 0 0 0 0;	
+}
+
+ul {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+li {
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+	#top-fixed {
+		position: fixed;
+		
+		height: 90px;
+		width: 100%;
+	}
+	
+		#left-main-nav {
+			position: absolute;
+			
+			top: 0px;
+			left: 0px;
+
+			width: 100%;			
+		}
+		
+		#left-main-nav li {
+			float: left;
+			
+			height: 80px;
+			
+			padding: 20px 5px 5px 5px;
+			
+			border-left: 1px solid #ddd;
+		}
+		
+			#logo {
+				margin-left: 20px;
+			}
+		
+			#logo img {
+				height: 100%;
+			}
+			
+			#search {
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+			
+			#search input {
+				border: none;
+				
+				padding: 30px 30px 30px 30px;
+				height: 40px;
+				
+				width: 100%;
+			}
+
+
+		#top-logo {
+			float: left;
+		}
+		
+		#top-logo img {
+			width: 60px;
+		}
+		
+		#search-bar {
+			margin-left: 60px;
+			
+			margin-right: 50%;
+		}
+		
+		#search-bar input {
+			width: 100%;
+		}
+
+			
+		#right-main-nav {
+			float: right;
+		}
+		
+			#right-main-nav li {
+				float: left;
+				
+				height: 80px;
+				
+				width: 100px;
+				
+				padding-top: 30px;
+			}
+			
+	
+	#all-wrapper {
+		padding-top: 40px;
+		
+		height: 45px;
+		width: 100%;
+	}
